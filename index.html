@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="header-top">
+      <a href="mailto:sundar.bsm@enexio.com" class="mail">
+        <i class="fas fa-envelope"></i> sundar.bsm@enexio.com</a>
+      <a href="tel:8919579775" class="phone">
+        <i class="fas fa-phone-alt"></i> 8919579775</a>
+    </div>
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Section -->
+  <section id="home" class="banner">
+    <h1>We provide the best Industrial services</h1>
+    <button class="btn-sm">Learn More</button>
+  </section>
+
+  <section class="mecimg">
+    <img src="mk.jpg" alt="img" id="f1">
+    <img src="vk.jpg" alt="img" id="f2">
+    <img src="nk.jpg" alt="img" id="f3">
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="firsthalf">
+      <p class="text-big"> Welcome to Industrio Company</p>
+      <p class="text-small">Manufacturing induystry became a key sector of production <br>and labour in European and
+        north american
+        countries <br>during the industrial Revolution upsetting previous mercantile and feudal economies.</p>
+      <div class="button1">
+        <button class="btn1">Learn about the service</button>
+      </div>
+    </div>
+    <div class="secondhalf">
+      <img src="rb.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="item">
+    <img src="mkk.jpg.png" alt="">
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="para">
+      <p class="text-big1">Projects for Inspiration</p>
+      <p class="text-small1">You will find yourself working in a true partnership that results in an incredible <br>
+        exprience, and an end product that is the best.</p>
+    </div>
+  </section>
+
+  <section class="item2">
+    <img src="bnn.jpg.png" alt="">
+  </section>
+
+  <section class="item3">
+    <img src="me.jpg.png" alt="">
+  </section>
+
+  <section class="item4">
+    <img src="vkk.jpg.png" alt="">
+  </section>
+
+  <h2>Enquiry Form</h2>
+    <section class="contact" id="contact"></section>
+    <form action="https://formspree.io/f/mnnqkrvk" method="post">
+        
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required pattern="[A-Za-z]+"
+                title="only alphabets are allowed.">
+        </div>
+        <div>
+            <label for="companyName">Company Name</label>
+            <input type="text" id="companyName" name="companyName" placeholder="Company name" required
+                pattern="[A-Za-z]+" title="only alphabets are allowed.">
+        </div>
+        <div>
+            <label for="email">Email ID</label>
+            <input type="email" name="email" id="email" placeholder="mail id" required>
+        </div>
+        <div>
+            <label for="Phone">Phone</label>
+            <input type="text" id="phone" name="phone" placeholder="phone number" required pattern="[0-9]+"
+                title="only number are allowed.">
+        </div>
+        <div>
+            <label for="memo">Memo</label>
+            <textarea name="memo" id="memo" placeholder="write something..." maxlength="500" rows="5 "></textarea>
+        </div>
+        
+
+        <button class="submit-btn">Submit</button>
+    </form>  
+
+    <div class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h1>Form submitted successfully!</h1>
+        </div>    
+    </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2024 Enquiry Form. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
